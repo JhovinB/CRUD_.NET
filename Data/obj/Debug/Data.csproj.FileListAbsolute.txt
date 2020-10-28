@@ -1,0 +1,9 @@
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Data\bin\Debug\Data.dll
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Data\bin\Debug\Data.pdb
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Data\bin\Debug\Entity.dll
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Data\bin\Debug\Entity.pdb
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Data\obj\Debug\Data.csprojAssemblyReference.cache
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Data\obj\Debug\Data.csproj.CopyComplete
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Data\obj\Debug\Data.dll
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Data\obj\Debug\Data.pdb

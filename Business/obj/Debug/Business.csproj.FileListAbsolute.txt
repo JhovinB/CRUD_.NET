@@ -1,0 +1,11 @@
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Business\bin\Debug\Business.dll
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Business\bin\Debug\Business.pdb
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Business\bin\Debug\Data.dll
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Business\bin\Debug\Entity.dll
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Business\bin\Debug\Data.pdb
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Business\bin\Debug\Entity.pdb
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Business\obj\Debug\Business.csprojAssemblyReference.cache
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Business\obj\Debug\Business.csproj.CopyComplete
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Business\obj\Debug\Business.dll
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Business\obj\Debug\Business.pdb
