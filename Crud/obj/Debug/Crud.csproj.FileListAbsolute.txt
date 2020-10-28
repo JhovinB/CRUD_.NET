@@ -22,3 +22,7 @@ D:\6to Ciclo\Web Avanzado\Sem05\Crud\Crud\obj\Debug\ManCategoria.baml
 D:\6to Ciclo\Web Avanzado\Sem05\Crud\Crud\obj\Debug\Crud.csproj.CopyComplete
 D:\6to Ciclo\Web Avanzado\Sem05\Crud\Crud\obj\Debug\Crud.exe
 D:\6to Ciclo\Web Avanzado\Sem05\Crud\Crud\obj\Debug\Crud.pdb
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Crud\obj\Debug\ListaProducto.g.cs
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Crud\obj\Debug\ManProducto.g.cs
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Crud\obj\Debug\ListaProducto.baml
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Crud\obj\Debug\ManProducto.baml

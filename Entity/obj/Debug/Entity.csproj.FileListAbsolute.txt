@@ -3,3 +3,4 @@ D:\6to Ciclo\Web Avanzado\Sem05\Crud\Entity\bin\Debug\Entity.pdb
 D:\6to Ciclo\Web Avanzado\Sem05\Crud\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
 D:\6to Ciclo\Web Avanzado\Sem05\Crud\Entity\obj\Debug\Entity.dll
 D:\6to Ciclo\Web Avanzado\Sem05\Crud\Entity\obj\Debug\Entity.pdb
+D:\6to Ciclo\Web Avanzado\Sem05\Crud\Entity\obj\Debug\Entity.csprojAssemblyReference.cache

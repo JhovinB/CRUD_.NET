@@ -20,24 +20,24 @@ namespace Crud
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
     /// </summary>
-    public partial class ListaCategoria : Window
+    public partial class ListaProducto : Window
     {
-        public ListaCategoria()
+        public ListaProducto()
         {
             InitializeComponent();
         }
-        public void BtnConsultar_Click(object sender, RoutedEventArgs e)
+        public void BtnConsultar_Click(object sender,RoutedEventArgs e)
         {
             Cargar();
         }
         private void Cargar()
         {
-            BCategoria Bcategoria = null;
+            BProducto Bproducto = null;
 
             try
             {
-                Bcategoria = new BCategoria();
-                dgvCategoria.ItemsSource = Bcategoria.Listar(0);
+                Bproducto = new BProducto();
+                dgvProducto.ItemsSource = Bproducto.Listar(0);
             }
             catch (Exception)
             {
@@ -45,31 +45,24 @@ namespace Crud
             }
             finally
             {
-                Bcategoria = null;
+                Bproducto = null;
             }
         }
 
-        private void BtnNuevo_Click(object sender, RoutedEventArgs e)
+        private void BtnNuevo_Click(object sender,RoutedEventArgs e)
         {
-            ManCategoria manCategoria = new ManCategoria(0);
-            manCategoria.ShowDialog();
+            ManProducto manProducto = new ManProducto(0);
+            manProducto.ShowDialog();
             Cargar();
         }
-      
-        private void DgvCategoria_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void DgvProducto_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            int idCategoria;
-            var item = (Categoria)dgvCategoria.SelectedItem;
+            int idProducto;
+            var item = (Producto)dgvProducto.SelectedItem;
             if (null == item) return;
-            idCategoria = Convert.ToInt32(item.IdCategoria);
+            idProducto = Convert.ToInt32(item.IdProducto);
 
-            ManCategoria manCategoria = new ManCategoria(idCategoria);
-            manCategoria.ShowDialog();
-            Cargar();
-        }
-        private void BtnProducto_Click(object sender, RoutedEventArgs e)
-        {
-            ListaProducto manProducto = new ListaProducto();
+            ManProducto manProducto = new ManProducto(idProducto);
             manProducto.ShowDialog();
             Cargar();
         }
