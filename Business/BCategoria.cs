@@ -36,7 +36,7 @@ namespace Business
                 DCategoria = new DCategoria();
                 DCategoria.Insertar(categoria);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 result = false;
             }
@@ -49,7 +49,7 @@ namespace Business
             {
                 DCategoria = new DCategoria();
                 DCategoria.Actualizar(categoria);
-            }catch(Exception ex)
+            }catch(Exception)
             {
                 result = false;
             }
@@ -63,7 +63,7 @@ namespace Business
                 DCategoria = new DCategoria();
                 DCategoria.Eliminar(IdCategoria);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 result = false;
             }

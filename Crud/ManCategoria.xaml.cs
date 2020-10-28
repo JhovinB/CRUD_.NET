@@ -75,5 +75,29 @@ namespace Crud
         {
             Close();
         }
+        private void BtnEliminar_Click(object sender, RoutedEventArgs e)
+        {
+            BCategoria Bcategoria = null;
+            bool result = true;
+            try
+            {
+                Bcategoria = new BCategoria();
+                if (ID > 0)
+                    result = Bcategoria.Eliminar(ID);
+                    MessageBox.Show("Se Elimino Correctamente");
+                if (!result)
+                    MessageBox.Show("Comunicarse con el administrador");
+
+                Close();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Comunicarse con el administrador");
+            }
+            finally
+            {
+                Bcategoria = null;
+            }
+        }
     }
 }
