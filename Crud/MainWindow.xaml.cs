@@ -67,11 +67,5 @@ namespace Crud
             manCategoria.ShowDialog();
             Cargar();
         }
-        private void BtnProducto_Click(object sender, RoutedEventArgs e)
-        {
-            ListaProducto manProducto = new ListaProducto();
-            manProducto.ShowDialog();
-            Cargar();
-        }
     }
 }

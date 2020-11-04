@@ -14,23 +14,27 @@
         </Style>
     </Window.Resources>
     <Grid >
-
         <StackPanel>
-            <StackPanel>
-                <Label Content="Crear una Categoria" />
+            <StackPanel Orientation="Horizontal">
+                <Label Width="150px">ID</Label>
+                <Label x:Name="lblID" HorizontalAlignment="Left"></Label>
             </StackPanel>
-            <StackPanel Orientation="Vertical">
-                <Label x:Name="lblID" HorizontalAlignment="Left">Id</Label>
-                <Label HorizontalAlignment="Left">Nombre</Label>
-                <TextBox x:Name="txtNombre" Text="Nombre"/>
-                <Label HorizontalAlignment="Left">Descripcion</Label>
-                <TextBox x:Name="txtDescripcion" Text="Descripcion"/>
-                <Button x:Name="btnGrabar" Click="BtnGrabar_Click"  >Grabar</Button>
-                <Button x:Name="btnCerrar" Click="BtnCerrar_Click"  >Cerrar</Button>
-                <Button x:Name="btnEliminar" Click="BtnEliminar_Click"  >Eliminar</Button>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="150px">Nombre</Label>
+                <TextBox x:Name="txtNombre" Width="200"
+                         Text=""/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="150px">Descripcion</Label>
+                <TextBox x:Name="txtDescripcion" Width="200"
+                         Text=""/>
             </StackPanel>
 
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="btnGrabar" Click="BtnGrabar_Click">Grabar</Button>
+                <Button x:Name="btnCerrar" Click="BtnCerrar_Click">Cerrar</Button>
+                <Button x:Name="btnEliminar" Click="BtnEliminar_Click">Eliminar</Button>
+            </StackPanel>
         </StackPanel>
-
     </Grid>
 </Window>

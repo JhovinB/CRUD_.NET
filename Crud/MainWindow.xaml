@@ -21,7 +21,6 @@
             <StackPanel Orientation="Horizontal">
                 <Button x:Name="btnConsultar" Click="BtnConsultar_Click" >Consultar</Button>
                 <Button x:Name="btnNuevo" Click="BtnNuevo_Click"  >Nuevo</Button>
-                <Button x:Name="btnProducto" Click="BtnProducto_Click"  >Producto</Button>
             </StackPanel>
 
             <StackPanel>

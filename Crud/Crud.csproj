@@ -55,14 +55,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="ListaProducto.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="ManProducto.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
+    <Compile Include="ViewModel\ListaCategoriaViewModel.cs" />
+    <Compile Include="ViewModel\ManCategoriaViewModel.cs" />
+    <Compile Include="ViewModel\RelayCommand.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="View\ListaCategoria.xaml.cs">
+      <DependentUpon>ListaCategoria.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ManCategoria.xaml.cs">
+      <DependentUpon>ManCategoria.xaml</DependentUpon>
+    </Compile>
     <Page Include="ManCategoria.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -75,12 +77,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ListaProducto.xaml.cs">
-      <DependentUpon>ListaProducto.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ManProducto.xaml.cs">
-      <DependentUpon>ManProducto.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ManCategoria.xaml.cs">
       <DependentUpon>ManCategoria.xaml</DependentUpon>
     </Compile>
@@ -88,8 +84,17 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="View\ListaCategoria.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ManCategoria.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\CategoriaModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -125,5 +130,6 @@
       <Name>Entity</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

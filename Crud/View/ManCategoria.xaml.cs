@@ -1,5 +1,4 @@
-﻿using Business;
-using Entity;
+﻿using Crud.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,26 +14,17 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Crud
+namespace Crud.View
 {
-    /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
-    /// </summary>
-    public partial class ManProducto : Window
-    {
-        public int ID { get; set; }
 
-        public ManProducto(int Id)
+    public partial class ManCategoria : Window
+    {
+        ManCategoriaViewModel viewModel;
+        public ManCategoria()
         {
             InitializeComponent();
-           
+            viewModel = new ManCategoriaViewModel();
+            this.DataContext = viewModel;
         }
-      
-    
-        private void BtnCerrar_Click(object sender , RoutedEventArgs e)
-        {
-            Close();
-        }
-    
     }
 }
